@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite by package" verbose="1">
+    <test name="FirstTest01">
+        <packages>
+            <package name="LinhTester.B9_testNGFramework" />
+            <package name="LinhTester.B9_testNGFramework" />
+        </packages>
+    </test>
+
+
+</suite>

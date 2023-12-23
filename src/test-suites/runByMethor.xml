@@ -1,0 +1,12 @@
+<suite name="Suite by methor" verbose="1">
+    <test name="FirstTest">
+        <classes>
+            <class name="LinhTester.B9_testNGFramework.runTestNG01">
+                <methods>
+                    <include name="testAnhTesterBlog" />
+                    <include name="testAnhTesterBlog" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
