@@ -30,11 +30,29 @@ public class runTestNG01 {
     }
 
     @Test
-    public void testGoogleSearch() throws InterruptedException {
+    public void testGoogleSearch1() throws InterruptedException {
         driver.get("https://www.google.com/");
-        driver.findElement(By.xpath("//input[@name='q']")).sendKeys("anhtester", Keys.ENTER);
+        driver.findElement(By.xpath("//textarea[@name='q']")).sendKeys("anhtester", Keys.ENTER);
         Thread.sleep(1000);
-        driver.findElement(By.xpath("//h3[normalize-space()='Anh Tester - Automation Testing']")).click();
+        driver.findElement(By.xpath("(//span[@jscontroller='msmzHf'])[1]//h3")).click();
+        Thread.sleep(2000);
+    }
+
+    @Test
+    public void testGoogleSearch2() throws InterruptedException {
+        driver.get("https://www.google.com/");
+        driver.findElement(By.xpath("//textarea[@name='q']")).sendKeys("anhtester", Keys.ENTER);
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("(//span[@jscontroller='msmzHf'])[1]//h3")).click();
+        Thread.sleep(2000);
+    }
+
+    @Test
+    public void testGoogleSearch3() throws InterruptedException {
+        driver.get("https://www.google.com/");
+        driver.findElement(By.xpath("//textarea[@name='q']")).sendKeys("anhtester", Keys.ENTER);
+        Thread.sleep(1000);
+        driver.findElement(By.xpath("(//span[@jscontroller='msmzHf'])[1]//h3")).click();
         Thread.sleep(2000);
     }
 
