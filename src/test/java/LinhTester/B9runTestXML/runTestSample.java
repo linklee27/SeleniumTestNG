@@ -1,4 +1,4 @@
-package LinhTester.runTestXML;
+package LinhTester.B9runTestXML;
 
 import org.testng.annotations.Test;
 
