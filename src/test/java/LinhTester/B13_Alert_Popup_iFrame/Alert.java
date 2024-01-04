@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-//https://demo.seleniumeasy.com/javascript-alert-box-demo.html
+//https://demo.seleniumeasy.com/javascript-alert-box-demo.html  - driver.switchTo().alert()
 public class Alert extends BaseTest {
 
     //alert có 1 button OK
