@@ -29,7 +29,6 @@ public class TestDataProvider {
     public void testLoginCRM1(String name, String pass, int number) {
         System.out.println(name + " - " + pass + " - " + number);
 
-
     }
 
     @Test(dataProvider = "dataProviderLogin2")
