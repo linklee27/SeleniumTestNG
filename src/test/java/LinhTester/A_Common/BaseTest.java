@@ -13,8 +13,8 @@ public class BaseTest {
     public void createBrowser(){
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  //thời gian chờ đợi ngầm tối đa cho mỗi câu lệnh tìm kiếm driver.findElement với time là 10s
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30)); //chờ đợi trang load xong (trong 30s), nếu trong 30s không load xong lỗi
     }
 
     @AfterMethod
