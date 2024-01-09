@@ -1,6 +1,6 @@
 package LinhTester.B12_ActionsRobot;
 
-import LinhTester.A_Common.BaseTest;
+import LinhTester.A_Common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
@@ -17,7 +17,7 @@ import java.io.IOException;
 //        2. Phương pháp chuột (chuột phải, trái, giữa)
 //        3. chụp màn hình
 
-public class TestRobotClass extends BaseTest {
+public class TestRobotClassOLD extends BaseTest_OLD {
     @Test
     public void inputText() throws InterruptedException, AWTException {
 

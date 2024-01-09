@@ -1,13 +1,13 @@
 package LinhTester.B13_Alert_Popup_iFrame;
 
-import LinhTester.A_Common.BaseTest;
+import LinhTester.A_Common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 //https://demo.seleniumeasy.com/javascript-alert-box-demo.html  - driver.switchTo().alert()
-public class Alert extends BaseTest {
+public class Alert extends BaseTest_OLD {
 
     //alert có 1 button OK
     @Test(priority = 1)

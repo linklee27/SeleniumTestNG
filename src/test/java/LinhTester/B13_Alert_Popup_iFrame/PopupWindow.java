@@ -1,13 +1,13 @@
 package LinhTester.B13_Alert_Popup_iFrame;
 
-import LinhTester.A_Common.BaseTest;
+import LinhTester.A_Common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import java.util.Set;
 
 //https://demo.guru99.com/popup.php  - driver.switchTo().window(window)
-public class PopupWindow extends BaseTest {
+public class PopupWindow extends BaseTest_OLD {
 //    public void TestPopup1() throws InterruptedException {
 //        driver.get("https://demo.guru99.com/popup.php");
 //        driver.findElement(By.xpath("//a[normalize-space()='Click Here']")).click();

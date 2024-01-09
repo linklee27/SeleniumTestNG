@@ -1,10 +1,10 @@
 package LinhTester.B10_AnnotationTestNG;
 
-import LinhTester.A_Common.BaseTest;
+import LinhTester.A_Common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class LoginCMS extends BaseTest {
+public class LoginCMS extends BaseTest_OLD {
 
 
     @Test(priority = 2, description = "Login CMS Test")

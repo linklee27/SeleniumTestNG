@@ -1,11 +1,10 @@
 package LinhTester.B11_Assert;
 
-import LinhTester.A_Common.BaseTest;
-import org.openqa.selenium.WebDriver;
+import LinhTester.A_Common.BaseTest_OLD;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestHardAssert extends BaseTest {
+public class TestHardAssertOLD extends BaseTest_OLD {
     //1. Hard Assert - Nếu sai ở đâu dừng ở đó
 //        - assertEquals(actual, expected) - so sánh bằng, sai chỗ nào, dừng ctrinh chỗ đó
 //        assertNotEquals(actual, expected) - so sánh không bằng -

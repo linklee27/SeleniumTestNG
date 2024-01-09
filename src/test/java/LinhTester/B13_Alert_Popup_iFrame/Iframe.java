@@ -1,12 +1,11 @@
 package LinhTester.B13_Alert_Popup_iFrame;
 
-import LinhTester.A_Common.BaseTest;
+import LinhTester.A_Common.BaseTest_OLD;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 //https://anhtester.com/contact  - driver.switchTo().frame()
-public class Iframe extends BaseTest {
+public class Iframe extends BaseTest_OLD {
     @Test
     public void testIFrame01() throws InterruptedException {
 

@@ -6,14 +6,14 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
-
-public class BaseTest {
+//Basetest dùng từ bài 9-14
+public class BaseTest_OLD {
     public WebDriver driver;
     @BeforeMethod
     public void createBrowser(){
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        //BaseTest không có cái này //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  //thời gian chờ đợi ngầm tối đa cho mỗi câu lệnh tìm kiếm driver.findElement với time là 10s
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));  //thời gian chờ đợi ngầm tối đa cho mỗi câu lệnh tìm kiếm driver.findElement với time là 10s
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30)); //chờ đợi trang load xong (trong 30s), nếu trong 30s không load xong lỗi
     }
 

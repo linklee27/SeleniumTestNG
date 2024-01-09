@@ -1,6 +1,6 @@
 package LinhTester.B12_ActionsRobot;
 
-import LinhTester.A_Common.BaseTest;
+import LinhTester.A_Common.BaseTest_OLD;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 //           d. Làm mới trang
 
 
-public class TestActionsClass extends BaseTest {
+public class TestActionsClassOLD extends BaseTest_OLD {
     @Test
     public void TestSendKeys() throws InterruptedException {
 

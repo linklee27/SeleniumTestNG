@@ -1,14 +1,12 @@
 package LinhTester.B11_Assert;
 
-import LinhTester.A_Common.BaseTest;
+import LinhTester.A_Common.BaseTest_OLD;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TestSoftAssert extends BaseTest {
+public class TestSoftAssertOLD extends BaseTest_OLD {
 //Soft Assert - Nếu sai ở đâu vẫn tiếp tục chạy bước tiếp theo, có class hỗ trợ riêng
     @Test
     public void testSoftAssert(){

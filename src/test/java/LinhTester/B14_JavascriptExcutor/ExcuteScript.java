@@ -1,13 +1,13 @@
 package LinhTester.B14_JavascriptExcutor;
 
-import LinhTester.A_Common.BaseTest;
+import LinhTester.A_Common.BaseTest_OLD;
 import keywords.WebUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class ExcuteScript extends BaseTest {
+public class ExcuteScript extends BaseTest_OLD {
     @Test
     public void testScript01(){
         driver.get("https://demo.activeitzone.com/ecommerce/users/login");
